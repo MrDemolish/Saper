@@ -7,6 +7,8 @@ Wymagania
 C++11 lub nowszy
 Biblioteka SFML
 System operacyjny zgodny z Windows (z powodu użycia funkcji Sleep())
+Skopiować folder "res" do folderu kompilacji pliku .exe
+
 Struktura kodu
 Stałe i zmienne globalne
 BOARD_SIZE: Rozmiar planszy.
