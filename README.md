@@ -1,5 +1,6 @@
 Opis ogólny
 Projekt "Saper" to gra polegająca na odnajdywaniu min na planszy. Gra jest napisana w C++ z wykorzystaniem biblioteki SFML do grafiki i obsługi zdarzeń.
+![380739112_1261963997801798_5811632103275220907_n](https://github.com/MrDemolish/Saper/assets/147986097/4f1b9a49-6de7-4a63-bc4f-1a1f00daa86f)
 
 Wymagania
 C++11 lub nowszy
