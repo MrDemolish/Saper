@@ -8,7 +8,7 @@ Projekt "Saper" to gra polegająca na odnajdywaniu min na planszy. Gra jest napi
 <b>Wymagania</b><br>
 <ul>
   <li>C++11 lub nowszy</li>
-  <li>Biblioteka <a href="https://www.sfml-dev.org/download/sfml/2.6.0/">SFML 2.6.0</a></li>
+  <li>Biblioteka <a href="https://www.sfml-dev.org/download/sfml/2.6.0/">SFML 2.6.0</a> x64</li>
   <li>System operacyjny zgodny z Windows (z powodu użycia funkcji Sleep())</li>
   <li>Przeniesienie folderu "res" do folderu w którym znajduje się skompilowana gra</li>
 </ul>
