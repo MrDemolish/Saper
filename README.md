@@ -27,21 +27,11 @@ Projekt "Saper" to gra polegająca na odnajdywaniu min na planszy. Gra jest napi
   <li>board, revealed, flagged, questionMarked: Tablice przechowujące stan planszy i komórek.</li>
   <li>font: Font używany w grze.</li>
 </ul>
-<b>Prototypy funkcji</b><br>
+<b>Funkcje</b><br>
 <ul>
   <li>initializeBoard(): Inicjalizuje planszę.</li>
   <li>reveal(int x, int y): Odkrywa komórki.</li>
   <li>checkForGameEnd(sf::RenderWindow& window): Sprawdza, czy gra się zakończyła.</li>
   <li>handleMouseClick(int x, int y, sf::Mouse::Button button): Obsługuje kliknięcia myszą.</li>
 </ul>
-<b>Funkcje</b><br>
-<b>initializeBoard()</b><br>
-Inicjalizuje planszę, umieszcza miny i liczby w komórkach.<br><br>
-<b>reveal(int x, int y)</b><br>
-Odkrywa komórkę o podanych współrzędnych (x, y) i, jeśli jest pusta, odkrywa również jej sąsiadujące komórki.<br><br>
-<b>checkForGameEnd(sf::RenderWindow& window)</b><br>
-Sprawdza, czy gracz wygrał lub przegrał, i odpowiednio zamyka okno gry.<br><br>
-<b>handleMouseClick(int x, int y, sf::Mouse::Button button)</b><br>
-Obsługuje kliknięcia myszą, umożliwiając oznaczenie komórki flagą, znakiem zapytania lub odkrycie jej.<br><br>
-<b>Główna pętla programu</b><br>
 Pętla główna programu zarządza grafiką i zdarzeniami. Rysuje planszę i elementy gry w oknie, a także obsługuje zdarzenia takie jak kliknięcia myszą.<br>
